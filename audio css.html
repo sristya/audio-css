@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="width=device-width,initial-scale=1.0">
+  <style> 
+  
+    
+  body{
+    background-color: rgb(20, 153, 106);
+}
+div{ display: flex;
+  align-content: center;
+  justify-content: center;
+    margin-bottom: 500px;
+    margin-right: 10px;
+    
+
+}
+.hi{display: flex;
+  align-content: center;
+  justify-content: center;
+    height: 100px;
+    width: 10px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes a {
+    0%{
+        color: red;
+        background-color: blue;
+        margin-top: 50px;
+    }
+    50%{
+        color: green;
+        background-color: yellowgreen;
+        margin-top: 0px;
+    }
+    100%{
+        color: violet;
+        background-color: orangered;
+        margin-top: 50px;
+    }
+}
+
+span:nth-child(even){
+
+    animation-name: a;
+    animation-duration: 1s;
+    display: inline-block;
+    animation: iteration-count:infinite;
+    animation direction: reverse;
+    animation delay:3s linear infinite;
+
+
+}
+span:nth-child(odd){
+    animation-name: a;
+    animation-duration: 2s;
+    display: inline-block;
+    animation direction: reverse;
+    animation iteration-count: 2s  infinite;
+
+
+}
+
+
+    </style>
+  </head>
+<body>
+  <details>
+    <summary>
+  <center>
+ <img src="./98r/img_chicago.jpg " width="200" height="200">
+  </center>
+  <br>
+  <CENTER>
+  
+    <H1>MUSIC CONCERT</H1>
+  
+ <audio width="100" height="100" controls>
+   
+  <source src="./98r/[iSongs.info] 01 - Ola Olaala Ala.mp3" download>
+  <source src="./98r/[iSongs.info] 01 - Ola Olaala Ala.mp3" download><button>download</button>
+ </audio>
+
+</summary>
+</details>
+  </CENTER>
+</html>
+<div>
+<center>
+  <span class="hi"></span>
+  <span class="hi"></span>
+  <span class="hi"></span>
+  <span class="hi"></span>
+  <span class="hi"></span>
+  <span class="hi"></span>
+  <span class="hi"></span>
+ </center>
+  </div>
+   
+</body>
+</html>
